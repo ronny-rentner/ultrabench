@@ -1,0 +1,1 @@
+{"version": 1, "git_hash": "deadbeef", "key": {"test": "speedometer", "version": "2.0", "browser": "chrome"}, "results": [{"key": {"value": "score", "type": "rollup"}, "measurement": 160.54665382132615}], "links": {"104.0.5112.79": "about:blank"}}
