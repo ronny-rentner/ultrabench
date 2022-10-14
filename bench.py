@@ -26,7 +26,7 @@ def run_for_browser(name, config):
 
     #log.info("Running {} with {}", name, config)
 
-def main(config):
+def main():
     log.info('Running browser benchmark v{}', __version__)
 
     print(rich.panel.Panel(f'ultrabench v{__version__}', expand=False, highlight=True, ))
@@ -34,4 +34,4 @@ def main(config):
 
 
 if __name__ == '__main__':
-    main(config)
+    main()

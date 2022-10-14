@@ -68,7 +68,8 @@ chrome = {
     }
 }
 
+scenarios = list(chrome.keys()).copy()
 for i in range(0, 10):
-    for k in list(chrome.keys()).copy():
+    for k in scenarios:
         chrome[f"{k}{i}"] = chrome[k]
 
